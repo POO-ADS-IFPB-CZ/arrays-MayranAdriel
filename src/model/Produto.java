@@ -39,4 +39,11 @@ public class Produto {
         this.categoria = categoria;
     }
 
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
 }
